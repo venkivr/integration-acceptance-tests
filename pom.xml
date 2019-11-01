@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>weather-app-integration-tests</module>
-        <module>acceptance-testing</module>
     </modules>
 
 
