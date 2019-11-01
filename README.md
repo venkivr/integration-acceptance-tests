@@ -1,4 +1,3 @@
-
 The test project is built using:
 Cucumber
 Spring
@@ -11,9 +10,10 @@ Please note the project supports the latest two versions of Chrome i.e. 77/78.
 The tests exists in a Feature file named "weatherForecastDaily.feature"
 
 In order to run the tests:
-- install and start the node first (Starting node as part of build is work in progress)
+- Clone test project repository https://github.com/buildit/acceptance-testing.git
+- Install (_npm install_) and start (_npm run develop_) the node first (Starting node as part of test build is work in progress)
 - In Terminal, please browse to weather-app-integration-tests folder and execute the following command to run the tests.
-mvn clean install -PrunIntegrationTests , runIntegrationTests is the profile to run tests.
+**mvn clean install -PrunIntegrationTests** (_runIntegrationTests is the profile to run tests_).
 - If running tests directly through IDE e.g. IntelliJ please update application.properties in test/resources to project folder. (This is work in progress to pick directory dynamically)
 - Please browse to WeatherAppTestRunner.java file, right-click on it, and select "Run WeatherAppTestRunner" option.
 - Test report is available in weather-app/weather-app-integration-tests/target/cucumber-html-report/index.html
