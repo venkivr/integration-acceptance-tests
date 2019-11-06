@@ -16,6 +16,7 @@ In order to run the tests:
 **mvn clean install -PrunIntegrationTests** (_runIntegrationTests is the profile to run tests_).
 - If running tests directly through IDE e.g. IntelliJ please update application.properties in test/resources to project folder. (This is work in progress to pick directory dynamically)
 - Please browse to WeatherAppTestRunner.java file, right-click on it, and select "Run WeatherAppTestRunner" option.
+- The **baseDir in application.properties** needs to be amended to the project's base directory.
 - Test report is available in weather-app/weather-app-integration-tests/target/cucumber-html-report/index.html
 
 As city constant is hardcoded to "Glasgow" in index.js file, it is not possible to test scenarios for other valid and invalid city names.
