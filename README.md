@@ -33,3 +33,4 @@ If more time was given, I would perform the additional tasks below.
 - Cover additional scenarios, particularly, edge cases.
 - Built a script that would start the server
 - Dynamically pick up project base directory
+- Tidying up the code, removing unused code, adding comments to methods.
