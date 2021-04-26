@@ -17,7 +17,7 @@
         <selenium.version>3.141.59</selenium.version>
         <logback.version>1.0.13</logback.version>
         <commons-lang.version>3.7</commons-lang.version>
-        <apache-io.version>2.6</apache-io.version>
+        <apache-io.version>2.7</apache-io.version>
         <junit.version>4.12</junit.version>
         <maven-surefire.version>2.22.2</maven-surefire.version>
         <threads>1</threads>
